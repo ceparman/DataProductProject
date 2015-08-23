@@ -6,7 +6,7 @@
 #
 
 library(shiny)
-library(quantmod)
+library(quantmod) 
 #get data for plotting
 #getSymbols("IBM", src="yahoo", from = "2013-1-1")
 #Use stored version because of slow response on shiny.io
